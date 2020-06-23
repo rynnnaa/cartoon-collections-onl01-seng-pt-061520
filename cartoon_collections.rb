@@ -7,7 +7,7 @@ end
 def summon_captain_planet(calls)
   new_arr = [] 
   calls.each.collect do |call|
-    puts "#{call.upcase}!"
+    puts "#{call.capitalize}!"
     new_arr << call
   end
   new_arr
