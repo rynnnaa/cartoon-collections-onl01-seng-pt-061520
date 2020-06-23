@@ -8,6 +8,7 @@ def summon_captain_planet(calls)
   calls.each.collect do |call|
     puts "#{call.upcase}!"
   end
+  call
 end
 
 def long_planeteer_calls# code an argument here
