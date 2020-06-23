@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(arr_calls)
   arr_calls.each.find do |call|
-    if call.length > 4
+    if call.length.include? > 4
       return TRUE
     else 
       return FALSE
