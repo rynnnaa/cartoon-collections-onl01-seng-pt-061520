@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(calls)
   calls.each do |call|
-    puts "#{call}!"
+    puts "#{call.upcase}!"
   end
 end
 
