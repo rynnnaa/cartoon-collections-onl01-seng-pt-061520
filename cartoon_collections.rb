@@ -5,7 +5,7 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(calls)
-  new arr = [] 
+  new_arr = [] 
   calls.each.collect do |call|
     puts "#{call.upcase}!"
     new_arr << call
