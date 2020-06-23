@@ -23,7 +23,7 @@ end
 def find_the_cheese(cheese_arr)
   cheese_arr.each do |cheese|
     if cheese.include?("cheddar")
-      return "cheddar"
+      return cheese
     else
       return nil 
     end
