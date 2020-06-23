@@ -13,9 +13,9 @@ end
 def long_planeteer_calls(arr_calls)
   arr_calls.each do |call|
     if call.length < 4
-      return TRUE
+      return true
     else 
-      return FALSE
+      return false
     end
   end
 end
