@@ -25,7 +25,7 @@ def find_the_cheese(cheese_arr)
     cheese_ = cheese_types.to_s
   cheese_arr.each do |cheeses|
     if cheeses.include?(cheese_)
-      return cheese_types
+      return cheese_
     else
       return nil 
     end
