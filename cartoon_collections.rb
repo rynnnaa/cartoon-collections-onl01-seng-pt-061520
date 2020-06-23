@@ -8,7 +8,6 @@ def summon_captain_planet(calls)
   calls.each.collect do |call|
     puts "#{call.capitalize}!"
   end
-  new_arr
 end
 
 def long_planeteer_calls# code an argument here
