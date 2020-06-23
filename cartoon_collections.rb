@@ -5,8 +5,8 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(calls)
-  calls.each.map do |call|
-    puts "#{call}"
+  calls.each do |call|
+    puts "#{call}!"
   end
 end
 
