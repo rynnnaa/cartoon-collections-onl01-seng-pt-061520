@@ -29,3 +29,4 @@ def find_the_cheese(cheese_arr)
     end
   end
 end
+  cheese_types = ["cheddar", "gouda", "camembert"]
